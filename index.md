@@ -9,4 +9,4 @@ tagline:
 &raquo; {{ post.content }}
 <hr/>
 {% endfor %}
-#### Checkout [All Posts](/posts.html)
+#### Checkout [All Posts]({{BASE_PATH}}{{post.url}})
