@@ -66,7 +66,7 @@ done in Objective-C.
 The first step to developing any Cocoa application is installing our
 programming IDE, Xcode, which can be found for free on the Mac Appstore.
 
-![](/MMC-iOS/images/Lecture1/xcode-install.png)
+![]({{ site.baseurl }}images/Lecture1/xcode-install.png)
 
 
 ### Writing your first Objective-C program
