@@ -70,5 +70,71 @@ programming IDE, Xcode, which can be found for free on the Mac Appstore.
 
 
 ### Writing your first Objective-C program
-TDB
 
+Great, now that Xcode is installed, let's take it for a spin!
+
+Open Xcode and select 'new project'
+![]({{BASEPATH}}images/Lecture1/new-xcode-proj.png)  
+<br><br>
+
+Select the template under OS X , Application , Commandline utility like the
+picture shown below:  
+<br>
+![]({{BASEPATH}}images/Lecture1/xcode-choose-template.png)
+
+Now the fun part, name your new project whatever the heck you'd like. I've
+chosen HelloWorld, but it could have called HelloDolly, or HelloKitty.
+
+The organization name can be whatever you'd like.
+
+Company identifier is somewhat important, as all the classes you create will be
+prefixed by this identifier. Apple reserves all two character prefixes, and the
+convention is to use three letters for 3rd party prefixes. If you have no idea
+what to use, just use MMC.
+
+Make sure 'Foundation' is chosen for 'type', and 'Use automatic reference
+counting' is checked.  
+<br>
+
+![]({{BASEPATH}}images/Lecture1/name-project.png)  
+<br>
+
+Click 'next' and BAM your new project has been created! On the left hand side of the screen, select main.m like the picture below:
+<br>
+![]({{BASEPATH}}images/Lecture1/xcode-code-start.png)
+<br>
+<br>
+
+Try clicking around on some of the other files in Xcode and see what happens.
+Xcode can look like the cockpit of a fighter jet, but don't worry! We'll soon
+understand what most of this stuff means. 
+<br>
+<br>
+![]({{BASEPATH}}images/Lecture1/jet.png)<br>
+*Welcome to Xcode, fire ze missles!*
+
+Click the "Run" button at the top left of the screen to build and run the
+application. A debug window will open up at the bottom of the screen showing
+the output. Congrats on your first Objective-C app!
+
+![]({{BASEPATH}}images/Lecture1/hello.png)<br>
+
+### That was boring...
+Ok, granted no one is going to pay for a 'hello world' app on the Appstore. If
+you really want to make money, [you'll need to add glowing pictures and some
+text at least.](http://en.wikipedia.org/wiki/I_Am_Rich)
+
+In the area where it says "insert code here" , paste in the following code:
+
+{% highlight objective-c %}
+// insert code here...
+NSArray *drinks = [NSArray arrayWithObjects:@"coffee", @"espresso" @"tea", nil];
+
+NSDictionary *citiesAndPopulations = [NSDictionary dictionaryWithObjectsAndKeys:@797494, @"Columbus", @2700000, @"Chicago", @13389, @"Circleville", nil];
+
+NSLog(@"These are really great drinks: %@", drinks);
+NSLog(@"Here are some nice cities %@", citiesAndPopulations);
+
+{% endhighlight %}
+
+Now, re-run the code and tell me that output isn't worth at least .99 cents?
