@@ -14,7 +14,7 @@ programs for iOS and OS X environments. Cocoa is the name of the application env
 
 ### A brief history
 
-**TL;DR** - Objective-C was inspired by Smalltalk. Steve Job's company NeXT
+**TL;DR** - Objective-C was inspired by Smalltalk. Steve Job's company NeXTStep
 licensed Objective-C from a company called PPI and began writing awesome software. Apple acquired NeXT
 and it's sweet developer tools in 1996. 
 
@@ -66,7 +66,7 @@ done in Objective-C.
 The first step to developing any Cocoa application is installing our
 programming IDE, Xcode, which can be found for free on the Mac Appstore.
 
-![]({{ site.baseurl }}images/Lecture1/xcode-install.png)
+![]({{BASEPATH}}images/Lecture1/xcode-install.png)
 
 
 ### Writing your first Objective-C program
