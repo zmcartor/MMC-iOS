@@ -35,7 +35,7 @@ methods for setting label text, button state the view's background color, view p
 While a controller contains the logic for visually displaying information, that
 information has to come from somewhere!
 
-![]({{BASEPATH}}/images/Lecture3/datamodel.png)
+![]({{BASEPATH}}images/Lecture3/datamodel.png)
 
 The model controls access to any data the view may need. This could be the
 current user's email address, email messages, list of photos, anything. The
