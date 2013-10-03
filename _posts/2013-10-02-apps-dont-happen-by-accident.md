@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "Apps dont happen by accident"
+title: "Apps don't happen by accident"
 description: ""
 category: class lectures 
 tags: []
 ---
 {% include JB/setup %}
  
-Good apps don't happen by accident. The works of many talented people goes
-into the design, planning, testing, programming, marketing and support of every
+Good apps don't happen by accident. The work of many talented people goes
+into the design, planning, testing, programming, marketing and support of each
 top selling (and some not top selling) apps. But as a programmer, sometimes we
 can be tempted to jump right in and start coding up a storm. We'll figure it
 out as we go along, right? Planning and design are two required skills for any
 app developer. When I say 'design' I don't mean mad Photoshop skills. A pen and
-paper will do fine. If you can draw boxes and write your own name, you'll do
+paper will work. If you can draw boxes and write your own name, you'll do
 just fine.
 
 ### What will your app do?
 Before you begin, try to summarize the goal of your app in a single sentence.
-Something like "Allow cats to post pictures of string to Facebook" or "Display
+Something like "Allow cats to post pictures of goldfish to Facebook" or "Display
 the weather forcast for multiple locations in a delightful, novel way." Make
 sure to specify your audience. No app is for 'everyone'; don't be afraid to get
 specific. Even go so far as to create several different personas for your imaginary users.
@@ -27,9 +27,9 @@ For Example... George is 24, works at KFC and walks to class. He usually forgets
 bring an umbrella or a jacket. What would George like in a weather app ?
 
 #### Solving a problem
-Does your app solve a problem? Would someone use your app based on this single
-sentence? Distilling your app into one sentence will help maintain focus as we
-develop the first version. 
+Does your app solve a problem? Would the imaginary user gain enough value and 
+use your app based on this single sentence? Distilling your app into one sentence is tough, but necessary. 
+This one sentence is the anchor which maintains focus during the process.
 
 ### What features should I build?
 The first version of any product doesn't have to be a
@@ -45,7 +45,7 @@ unique and directly add to the app goal.
 With our winnowed down list of features in hand, let's begin drawing some
 mockups and piecing together the screens. Put your phone or tablet on the pad
 of paper and trace it's outline. Then, (if applicable) draw a rectangle inside
-to roughly approximate the visual screensize. tadaa! Paper iPhone!
+the outline to roughly approximate the visual screensize. tadaa! Paper device!
 
 To add an element of interactivity to your mockups, [I recommend PopApp](https://popapp.in/)
 
@@ -66,7 +66,7 @@ With the product purpose in mind and user validated mockups, it's finally time
 to fire up Xcode and begin coding. The level of confidence when coding with a 
 referenceable, user reviewed design is astounding. Coding will take much less
 time, as many of the corner cases and functionality decisions have already been
-accounted for by spending upfront time on design.
+accounted for by spending time upfront on design.
 
 ### In closing
 Shut the computer and take out a pen and paper. Observe people and how they
